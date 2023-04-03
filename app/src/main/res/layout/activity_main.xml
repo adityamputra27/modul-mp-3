@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="Deprecated"
+    android:layout_margin="8dp"
+    android:background="#ffffcc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan Email &amp; Password"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_y="30dp"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_y="70dp"
+        android:inputType="textPassword"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/tombol1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masuk"
+        android:layout_y="125dp"/>
+
+    <Button
+        android:id="@+id/tombol2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Daftar"
+        android:layout_y="125dp"
+        android:layout_x="305dp"/>
+
+
+</AbsoluteLayout>
